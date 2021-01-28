@@ -30,18 +30,13 @@ class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Image
-        source={{
-          uri:
-            "https://d3tklmlrp1a8c2.cloudfront.net/media/resources/project/24116/080cdab4-6724-4b43-ae28-4ea7abff244c.jpg"
-        }}
-      />
       <Text>Sample text content</Text>
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
 
-const styles = StyleSheet.create({ View_1: {}, Image_19: {}, Text_21: {} })
+const styles = StyleSheet.create({ View_1: {}, Text_21: {}, Button_23: {} })
 
 const mapStateToProps = state => {
   return {}
