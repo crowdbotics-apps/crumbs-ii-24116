@@ -30,43 +30,18 @@ class Blank extends React.Component {
 
   render = () => (
     <View>
-      <View>
-        <View style={styles.View_6}>
-          <View style={styles.View_11}>
-            <View />
-            <View />
-          </View>
-        </View>
-        <View style={styles.View_7}>
-          <Text>Welcome to Crumbs!</Text>
-        </View>
-      </View>
       <Image
         source={{
           uri:
             "https://d3tklmlrp1a8c2.cloudfront.net/media/resources/project/24116/080cdab4-6724-4b43-ae28-4ea7abff244c.jpg"
         }}
       />
+      <Text>Sample text content</Text>
     </View>
   )
 }
 
-const styles = StyleSheet.create({
-  View_1: {},
-  View_5: {},
-  View_6: {
-    width: "100%",
-    height: "100%",
-    alignSelf: "flex-start",
-    flexDirection: "row"
-  },
-  View_11: { flexDirection: "row" },
-  View_12: {},
-  View_13: {},
-  View_7: { width: "100%", height: "50%", alignSelf: "center" },
-  Text_17: {},
-  Image_19: {}
-})
+const styles = StyleSheet.create({ View_1: {}, Image_19: {}, Text_21: {} })
 
 const mapStateToProps = state => {
   return {}
