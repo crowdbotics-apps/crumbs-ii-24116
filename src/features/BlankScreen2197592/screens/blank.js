@@ -31,7 +31,7 @@ class Blank extends React.Component {
   render = () => (
     <View>
       <Text>Sample text content</Text>
-      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Button title="Push for more" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
