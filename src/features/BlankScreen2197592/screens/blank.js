@@ -21,6 +21,7 @@ import { SlideMenuIcon } from "../../../navigator/slideMenuIcon"
 class Blank extends React.Component {
   constructor(props) {
     super(props)
+
     this.state = {}
   }
   static navigationOptions = ({ navigation }) => {
@@ -40,6 +41,12 @@ class Blank extends React.Component {
           <Text>Welcome to Crumbs!</Text>
         </View>
       </View>
+      <Image
+        source={{
+          uri:
+            "https://d3tklmlrp1a8c2.cloudfront.net/media/resources/project/24116/080cdab4-6724-4b43-ae28-4ea7abff244c.jpg"
+        }}
+      />
     </View>
   )
 }
@@ -57,12 +64,16 @@ const styles = StyleSheet.create({
   View_12: {},
   View_13: {},
   View_7: { width: "100%", height: "50%", alignSelf: "center" },
-  Text_17: {}
+  Text_17: {},
+  Image_19: {}
 })
+
 const mapStateToProps = state => {
   return {}
 }
+
 const mapDispatchToProps = () => {
   return {}
 }
+
 export default connect(mapStateToProps, mapDispatchToProps)(Blank)
