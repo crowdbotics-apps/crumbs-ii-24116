@@ -31,7 +31,10 @@ class Blank extends React.Component {
   render = () => (
     <View>
       <Text>Sample text content</Text>
-      <Button title="Push for more" onPress={() => alert("Pressed!")} />
+      <Button
+        title="Press me!"
+        onPress={() => this.props.navigation.navigate("Articles2197593")}
+      />
     </View>
   )
 }
